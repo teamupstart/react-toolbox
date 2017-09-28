@@ -138,7 +138,7 @@ const factory = (Chip, Input) => {
     };
 
     handleQueryFocus = event => {
-      this.suggestionsNode.scrollTop = 0;
+      event.target.scrollTop = 0;
       this.setState({ active: '', focus: true });
       if (this.props.onFocus) this.props.onFocus(event);
     };
@@ -398,9 +398,6 @@ const factory = (Chip, Input) => {
           className={classnames(theme.suggestions, {
             [theme.up]: this.state.direction === 'up',
           })}
-          ref={node => {
-            this.suggestionsNode = node;
-          }}
         >
           {suggestions}
         </ul>
