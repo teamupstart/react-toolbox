@@ -1,21 +1,17 @@
 {
-  "name": "react-toolbox",
+  "name": "@teamupstart/react-toolbox",
   "description": "A set of React components implementing Google's Material Design specification with the power of CSS Modules.",
   "homepage": "http://www.react-toolbox.com",
-  "version": "2.0.0-beta.12",
+  "version": "2.0.0-beta.12.1",
   "main": "./lib",
   "author": {
-    "name": "Javier Velasco Arjona",
-    "email": "javier.velasco86@gmail.com",
-    "url": "http://javivelasco.com/"
+    "name": "Vicky Lai",
+    "email": "vicky@upstart.com",
+    "url": "http://upstart.com"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/react-toolbox/react-toolbox.git"
-  },
-  "bugs": {
-    "email": "javier.velasco86@gmail.com",
-    "url": "https://github.com/react-toolbox/react-toolbox/issues"
+    "url": "git+https://github.com/teamupstart/react-toolbox.git"
   },
   "keywords": [
     "components",
